@@ -1,9 +1,10 @@
 from django.contrib import admin
 from .models import (
     Company,
-    Product
+    Product,
+    Category
 )
 
-mdls = [Company, Product]
+mdls = [Company, Product, Category]
 
 admin.site.register(mdls)
